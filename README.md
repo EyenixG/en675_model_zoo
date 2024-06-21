@@ -79,6 +79,7 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 :+1: Test Dataset : COCO 2017 (val)
 |Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
 |:-----:|:---:|:---:|
+|**ALL**|30.4|53.3|
 |Person|42.2|74.0|
 |Car|31.5|57.4|
 |Motorcycle|30.5|60.7|
