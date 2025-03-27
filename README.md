@@ -49,8 +49,10 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 
 |Model|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
-|640_640_eyenix_model_v2 (tiny)|-|-|36MB|-ms|-ms|
-|640_640_eyenix_model_v3 (tiny)|-|-|41MB|-ms|-ms|
+|640_640_eyenix_model_v3 (yolov5s_silu)|[yolov5s_silu.bin](https://github.com/user-attachments/files/19480068/yolov5s_silu.bin.zip)|[yolov5s_silu.cfg](https://github.com/user-attachments/files/19480070/yolov5s_silu.cfg)|55.5MB|157.1ms|77.8ms|
+|640_640_eyenix_model_v3 (yolov5s_relu6)|[yolov5s_relu6.bin](https://github.com/user-attachments/files/19480092/yolov5s_relu6.zip)|[yolov5s_relu6.cfg](https://github.com/user-attachments/files/19480095/yolov5s_relu6.zip)|53.8MB|114ms|65.1ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|[yolov7_tiny_silu.bin](https://github.com/user-attachments/files/19480112/yolov7_tiny_silu.zip)|[yolov7_tiny_silu.cfg](https://github.com/user-attachments/files/19480115/yolov7_tiny_silu.zip)|47MB|140.6ms|71.1ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|[yolov7_tiny_relu6.bin](https://github.com/user-attachments/files/19480125/yolov7_tiny_relu6.zip)|[yolov7_tiny_relu6.cfg](https://github.com/user-attachments/files/19480129/yolov7_tiny_relu6.zip)|45.9MB|108.8ms|60.8ms|
 
 
 &#160;
@@ -62,9 +64,10 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 👍 Test Dataset : COCO 2017 (val)
 |Model|mAP at IOU = 0.50:0.95 (GPU)|mAP at IOU = 0.50:0.95 (NPU)| mAP at IOU = 0.50 (GPU)|mAP at IOU = 0.50 (NPU)|
 |:-----:|:---:|:---:|:---:|:---:|
-|640_352_eyenix_model_v2 (tiny)|33.4|27.5|49.9|44.9|
-|832_480_eyenix_model_v2 (tiny)|36.9|29.1|54.8|48.2|
-|640_640_eyenix_model_v3 (tiny)|37.2|36.1|55.3|53.7|
+|640_640_eyenix_model_v3 (yolov5s_silu)|39.3|35.2|58.6|54.7|
+|640_640_eyenix_model_v3 (yolov5s_relu6)|38.1|34.8|57.6|54.4|
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|39.1|34.8|57.8|53.9|
+|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|38.2|34.1|56.5|53.1|
 |**640_640_eyenix_model_v3 (Large)**|47.6|**45.4**|66.6|**64.1**|
 
 &#160;
