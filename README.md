@@ -49,10 +49,10 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 
 |Model|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
-|640_640_eyenix_model_v3 (yolov5s_silu)|[yolov5s_silu.bin](https://github.com/user-attachments/files/19480068/yolov5s_silu.bin.zip)|[yolov5s_silu.cfg](https://github.com/user-attachments/files/19480070/yolov5s_silu.cfg)|55.5MB|157.1ms|77.8ms|
-|640_640_eyenix_model_v3 (yolov5s_relu6)|[yolov5s_relu6.bin](https://github.com/user-attachments/files/19480092/yolov5s_relu6.zip)|[yolov5s_relu6.cfg](https://github.com/user-attachments/files/19480095/yolov5s_relu6.zip)|53.8MB|114ms|65.1ms|
-|640_640_eyenix_model_v3 (yolov7_tiny_silu)|[yolov7_tiny_silu.bin](https://github.com/user-attachments/files/19480112/yolov7_tiny_silu.zip)|[yolov7_tiny_silu.cfg](https://github.com/user-attachments/files/19480115/yolov7_tiny_silu.zip)|47MB|140.6ms|71.1ms|
-|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|[yolov7_tiny_relu6.bin](https://github.com/user-attachments/files/19480125/yolov7_tiny_relu6.zip)|[yolov7_tiny_relu6.cfg](https://github.com/user-attachments/files/19480129/yolov7_tiny_relu6.zip)|45.9MB|108.8ms|60.8ms|
+|640_640_eyenix_model_v3 (yolov5s_silu)|[yolov5s_silu.bin](https://github.com/user-attachments/files/19480519/yolov5s_silu.bin.zip)|[yolov5s_silu.cfg](https://github.com/user-attachments/files/19480521/yolov5s_silu.cfg.zip)|55.5MB|157.1ms|77.8ms|
+|640_640_eyenix_model_v3 (yolov5s_relu6)|[yolov5s_relu6.bin](https://github.com/user-attachments/files/19480508/yolov5s_relu6.zip)|[yolov5s_relu6.cfg](https://github.com/user-attachments/files/19480514/yolov5s_relu6.zip)|53.8MB|114ms|65.1ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|[yolov7_tiny_silu.bin](https://github.com/user-attachments/files/19480501/yolov7_tiny_silu.zip)|[yolov7_tiny_silu.cfg](https://github.com/user-attachments/files/19480498/yolov7_tiny_silu.zip)|47MB|140.6ms|71.1ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|[yolov7_tiny_relu6.bin](https://github.com/user-attachments/files/19480490/yolov7_tiny_relu6.zip)|[yolov7_tiny_relu6.cfg](https://github.com/user-attachments/files/19480495/yolov7_tiny_relu6.zip)|45.9MB|108.8ms|60.8ms|
 
 
 &#160;
