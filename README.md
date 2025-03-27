@@ -23,9 +23,9 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 |512_512_eyenix_model_v1|[od6class_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9466035/od6class_512.zip)|[od6class_512.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812963/od6class_512.zip)|18MB|37ms|20ms| - |
 |640_640_eyenix_model_v1|[od6class_640.bin](https://github.com/Eyenix/en675_model_zoo/files/9485743/od6class_640.zip)|[od6class_640.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812969/od6class_640.zip)|25MB|54ms|29ms| - |
 |672_384_eyenix_model_v2|[od6class_672_384.bin](https://github.com/Eyenix/en675_model_zoo/files/12459169/od6class_672_384.zip)|[od6class_672_384.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812971/od6class_672_384.zip)|22MB|63ms|28ms| [Click](#model---672x384-eyenix-model-v2-tiny) |
-|672_384_eyenix_model_v3 (tiny) - release|-|-|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---release) |
-|672_384_eyenix_model_v3 (tiny) - update|-|-|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---update) |
-|864_512_eyenix_model_v3 (tiny) - update|-|-|44MB|-ms|-ms| [Click](#model---864x512-eyenix-model-v3-tiny---update) |
+|672_384_eyenix_model_v3 (tiny) - release|[od6class_672_384_v3.bin](https://github.com/user-attachments/files/19480573/od6class_672_384_v3_bin.zip)|[od6class_672_384_v3.cfg](https://github.com/user-attachments/files/19480585/od6class_672_384_v3_cfg.zip)|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---release) |
+|672_384_eyenix_model_v3 (tiny) - update|[od6class_672_384_v3.bin](https://github.com/user-attachments/files/19480594/od6class_672_384_v3_bin.zip)|[od6class_672_384_v3.cfg](https://github.com/user-attachments/files/19480604/od6class_672_384_v3_cfg.zip)|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---update) |
+|864_512_eyenix_model_v3 (tiny) - update|[od6class_864_512.bin](https://github.com/user-attachments/files/19480608/od6class_864_512_bin.zip)|[od6class_864_512.cfg](https://github.com/user-attachments/files/19480610/od6class_864_512_cfg.zip)|44MB|-ms|-ms| [Click](#model---864x512-eyenix-model-v3-tiny---update) |
 
 
 &#160;
