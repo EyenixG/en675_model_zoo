@@ -10,7 +10,7 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 ## New Release
 ### ⭐eyenix_model_v3 has been released⭐ 
 eyenix_model_v3 performs better than eyenix_model_v2.  
-eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released later.  
+eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 &#160;
 ## Download
 ### ▶ Object Detection
@@ -39,7 +39,7 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 |448_448_eyenix_model_face_v1|[face_448.bin](https://github.com/Eyenix/en675_model_zoo/files/9925059/face_448.zip)|[face_448.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813035/face_448.zip)|23MB|50ms|20ms| - |
 |512_512_eyenix_model_face_v1|[face_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9925060/face_512.zip)|[face_512.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813036/face_512.zip)|31MB|68ms|28ms| - |  
 |512_288_eyenix_model_face_v2|[face_512_288.bin](https://github.com/Eyenix/en675_model_zoo/files/12459171/face_512_288.zip)|[face_512_288.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813038/face_512_288.zip)|14MB|38ms|17ms| [Click](#model---512x288-eyenix-model-v2-tiny) |
-|512_288_eyenix_model_face_v3 (tiny)|-|-|-MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny-1) |
+|512_288_eyenix_model_face_v3 (tiny)|-|-|-MB|-ms|-ms| [Click](#model---512x288-eyenix-model-v3-tiny) |
 
 **caution** : For the eyenix_face model_v1, the confidence score max is 64 instead of 256. User needs to change the value of the ClassConfTH array in npu_conf.c
 
@@ -154,5 +154,3 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 
 &#160;
 
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEyenix%2Fen675_model_zoo&count_bg=%2379C83D&title_bg=%23555555&icon=pytorch.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
