@@ -23,7 +23,9 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 |512_512_eyenix_model_v1|[od6class_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9466035/od6class_512.zip)|[od6class_512.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812963/od6class_512.zip)|18MB|37ms|20ms| - |
 |640_640_eyenix_model_v1|[od6class_640.bin](https://github.com/Eyenix/en675_model_zoo/files/9485743/od6class_640.zip)|[od6class_640.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812969/od6class_640.zip)|25MB|54ms|29ms| - |
 |672_384_eyenix_model_v2|[od6class_672_384.bin](https://github.com/Eyenix/en675_model_zoo/files/12459169/od6class_672_384.zip)|[od6class_672_384.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812971/od6class_672_384.zip)|22MB|63ms|28ms| [Click](#model---672x384-eyenix-model-v2-tiny) |
-|672_384_eyenix_model_v3 (tiny)|-|-|-MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny) |
+|672_384_eyenix_model_v3 (tiny) - release|-|-|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---release) |
+|672_384_eyenix_model_v3 (tiny) - update|-|-|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---update) |
+|864_512_eyenix_model_v3 (tiny) - update|-|-|44MB|-ms|-ms| [Click](#model---864x512-eyenix-model-v3-tiny---update) |
 
 
 &#160;
@@ -37,7 +39,6 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 |448_448_eyenix_model_face_v1|[face_448.bin](https://github.com/Eyenix/en675_model_zoo/files/9925059/face_448.zip)|[face_448.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813035/face_448.zip)|23MB|50ms|20ms| - |
 |512_512_eyenix_model_face_v1|[face_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9925060/face_512.zip)|[face_512.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813036/face_512.zip)|31MB|68ms|28ms| - |  
 |512_288_eyenix_model_face_v2|[face_512_288.bin](https://github.com/Eyenix/en675_model_zoo/files/12459171/face_512_288.zip)|[face_512_288.cfg](https://github.com/Eyenix/en675_model_zoo/files/12813038/face_512_288.zip)|14MB|38ms|17ms| [Click](#model---512x288-eyenix-model-v2-tiny) |
-|672_384_eyenix_model_face_v3 (tiny)|-|-|-MB|-ms|-ms| [Click](#model---512x288-eyenix-model-v3-tiny) | 
 |512_288_eyenix_model_face_v3 (tiny)|-|-|-MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny-1) |
 
 **caution** : For the eyenix_face model_v1, the confidence score max is 64 instead of 256. User needs to change the value of the ClassConfTH array in npu_conf.c
@@ -87,7 +88,7 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 |Truck|19.4|34.6|
 |Bus|44.2|63.7|
 
-### Model - 672x384 eyenix model v3 (tiny)
+### Model - 672x384 eyenix model v3 (tiny) - release
 
 |Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
 |:-----:|:---:|:---:|
@@ -99,6 +100,29 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 |Truck| 27.4 | 42.6 |
 |Bus|60.0 | 76.5 | 
 
+### Model - 672x384 eyenix model v3 (tiny) - update
+
+|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
+|:-----:|:---:|:---:|
+|**ALL**| - | - |
+|Person| - | - |
+|Car| - | - |
+|Motorcycle| - | - |
+|Bicycle| - | - |
+|Truck| - | - |
+|Bus| - | - | 
+
+### Model - 864x512 eyenix model v3 (tiny) - update
+
+|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
+|:-----:|:---:|:---:|
+|**ALL**| - | - |
+|Person| - | - |
+|Car| - | - |
+|Motorcycle| - | - |
+|Bicycle| - | - |
+|Truck| - | - |
+|Bus| - | - | 
 &#160;
 
 ### Face Model 
@@ -114,12 +138,6 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R, which will be released la
 |**Face**| - | - |
 
 ### Model - 512x288 eyenix model v3 (tiny)  
-
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
-|:-----:|:---:|:---:|
-|**Face**| - | - |
-
-### Model - 672x384 eyenix model v3 (tiny)  
 
 |Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
 |:-----:|:---:|:---:|
