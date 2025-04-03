@@ -12,7 +12,8 @@ The EN675 Series SoC Model Zoo privides the trained models for AI Object Detecti
 eyenix_model_v3 performs better than eyenix_model_v2.  
 eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 &#160;
-## Download
+
+## Release Model Download
 ### ▶ Object Detection
 ### **classes** : Person, Car, Motorbike, Bicycle, Truck, Bus  
 
@@ -43,17 +44,6 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 
 **caution** : For the eyenix_face model_v1, the confidence score max is 64 instead of 256. User needs to change the value of the ClassConfTH array in npu_conf.c
 
-&#160;
-
-### **class** : COCO 80 Class  
-
-|Model|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
-|:-----:|:---:|:---:|:---:|:---:|:---:|
-|640_640_eyenix_model_v3 (yolov5s_silu)|[yolov5s_silu.bin](https://github.com/user-attachments/files/19480519/yolov5s_silu.bin.zip)|[yolov5s_silu.cfg](https://github.com/user-attachments/files/19480521/yolov5s_silu.cfg.zip)|55.5MB|157.1ms|77.8ms|
-|640_640_eyenix_model_v3 (yolov5s_relu6)|[yolov5s_relu6.bin](https://github.com/user-attachments/files/19480508/yolov5s_relu6.zip)|[yolov5s_relu6.cfg](https://github.com/user-attachments/files/19480514/yolov5s_relu6.zip)|53.8MB|114ms|65.1ms|
-|640_640_eyenix_model_v3 (yolov7_tiny_silu)|[yolov7_tiny_silu.bin](https://github.com/user-attachments/files/19480501/yolov7_tiny_silu.zip)|[yolov7_tiny_silu.cfg](https://github.com/user-attachments/files/19480498/yolov7_tiny_silu.zip)|47MB|140.6ms|71.1ms|
-|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|[yolov7_tiny_relu6.bin](https://github.com/user-attachments/files/19480490/yolov7_tiny_relu6.zip)|[yolov7_tiny_relu6.cfg](https://github.com/user-attachments/files/19480495/yolov7_tiny_relu6.zip)|45.9MB|108.8ms|60.8ms|
-
 
 &#160;
 
@@ -62,6 +52,15 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 ### COCO (80classes) Model  
 👍 Train Dataset : COCO 2017 (train)  
 👍 Test Dataset : COCO 2017 (val)
+|Model|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
+|:-----:|:---:|:---:|:---:|:---:|:---:|
+|640_640_eyenix_model_v3 (yolov5s_silu)|[yolov5s_silu.bin](https://github.com/user-attachments/files/19480519/yolov5s_silu.bin.zip)|[yolov5s_silu.cfg](https://github.com/user-attachments/files/19480521/yolov5s_silu.cfg.zip)|55.5MB|157.1ms|77.8ms|
+|640_640_eyenix_model_v3 (yolov5s_relu6)|[yolov5s_relu6.bin](https://github.com/user-attachments/files/19480508/yolov5s_relu6.zip)|[yolov5s_relu6.cfg](https://github.com/user-attachments/files/19480514/yolov5s_relu6.zip)|53.8MB|114ms|65.1ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|[yolov7_tiny_silu.bin](https://github.com/user-attachments/files/19480501/yolov7_tiny_silu.zip)|[yolov7_tiny_silu.cfg](https://github.com/user-attachments/files/19480498/yolov7_tiny_silu.zip)|47MB|140.6ms|71.1ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|[yolov7_tiny_relu6.bin](https://github.com/user-attachments/files/19480490/yolov7_tiny_relu6.zip)|[yolov7_tiny_relu6.cfg](https://github.com/user-attachments/files/19480495/yolov7_tiny_relu6.zip)|45.9MB|108.8ms|60.8ms|
+
+&#160;
+
 |Model|mAP at IOU = 0.50:0.95 (GPU)|mAP at IOU = 0.50:0.95 (NPU)| mAP at IOU = 0.50 (GPU)|mAP at IOU = 0.50 (NPU)|
 |:-----:|:---:|:---:|:---:|:---:|
 |640_640_eyenix_model_v3 (yolov5s_silu)|39.3|35.2|58.6|54.7|
@@ -72,85 +71,56 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 
 &#160;
 
-### 6 class Model  
-**classes** : Person, Car, Motorbike, Bicycle, Truck, Bus  
+👍 Train Dataset : Widerface (train)  
+👍 Test Dataset : Widerface (val)
+|Model|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
+|:-----:|:---:|:---:|:---:|:---:|:---:|
+|640_640_eyenix_model_v2 (yolov7_tiny_silu)|||MB|ms|ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|||MB|ms|ms|
 
+&#160;
 
-👍 Train Dataset : EYENIX OD6class DB (train)  
-👍 Test Dataset : COCO 2017 (val)
+|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
+|:-----:|:---:|:---:|
+|640_640_eyenix_model_v2 (yolov7_tiny_silu)| - | - |
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)| - | - |
+
+&#160;
+
+## 🏆 Performance of released model
+### ▶ 6 class Model  (**classes** : Person, Car, Motorbike, Bicycle, Truck, Bus  )
 
 ### Model - 672x384 eyenix model v2 (tiny)  
 
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
-|:-----:|:---:|:---:|
-|**ALL**|30.4|53.3|
-|Person|42.2|74.0|
-|Car|31.5|57.4|
-|Motorcycle|30.5|60.7|
-|Bicycle|14.9|29.4|
-|Truck|19.4|34.6|
-|Bus|44.2|63.7|
+update ...
 
 ### Model - 672x384 eyenix model v3 (tiny) - release
 
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
-|:-----:|:---:|:---:|
-|**ALL**| 39.9 | 62.1 |
-|Person| 48.3 | 76.5 |
-|Car| 38.4 | 62.7 |
-|Motorcycle| 39.6 | 68.5 |
-|Bicycle| 25.6 | 46.1 |
-|Truck| 27.4 | 42.6 |
-|Bus|60.0 | 76.5 | 
+update ...
 
 ### Model - 672x384 eyenix model v3 (tiny) - update
 
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
-|:-----:|:---:|:---:|
-|**ALL**| - | - |
-|Person| - | - |
-|Car| - | - |
-|Motorcycle| - | - |
-|Bicycle| - | - |
-|Truck| - | - |
-|Bus| - | - | 
+update ...
 
 ### Model - 864x512 eyenix model v3 (tiny) - update
 
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
-|:-----:|:---:|:---:|
-|**ALL**| - | - |
-|Person| - | - |
-|Car| - | - |
-|Motorcycle| - | - |
-|Bicycle| - | - |
-|Truck| - | - |
-|Bus| - | - | 
+update ...
 &#160;
 
-### Face Model 
-**class** : Face  
-
-👍 Train Dataset : EYENIX FACE DB (train)  
-👍 Test Dataset : WIDER FACE (EASY)
+### ▶ Face Model (**class** : Face)
 
 ### Model - 512x288 eyenix model v2 (tiny)  
 
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
-|:-----:|:---:|:---:|
-|**Face**| - | - |
+update ...
 
 ### Model - 512x288 eyenix model v3 (tiny)  
 
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
-|:-----:|:---:|:---:|
-|**Face**| - | - |
+update ...
 
 &#160;
 
-## :clapper:promotion (DEMO)
-#### :arrow_forward: Parking lot solution
+## promotion (DEMO)
+#### ▶ Parking lot solution
 ![Parking_lot solution](https://user-images.githubusercontent.com/66294848/188069884-3441a15f-2a91-477a-b8d1-6337c931c25d.gif)
 
 &#160;
-
