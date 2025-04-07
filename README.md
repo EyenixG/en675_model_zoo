@@ -24,9 +24,9 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 |512_512_eyenix_model_v1|[od6class_512.bin](https://github.com/Eyenix/en675_model_zoo/files/9466035/od6class_512.zip)|[od6class_512.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812963/od6class_512.zip)|18MB|37ms|20ms| - |
 |640_640_eyenix_model_v1|[od6class_640.bin](https://github.com/Eyenix/en675_model_zoo/files/9485743/od6class_640.zip)|[od6class_640.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812969/od6class_640.zip)|25MB|54ms|29ms| - |
 |672_384_eyenix_model_v2|[od6class_672_384.bin](https://github.com/Eyenix/en675_model_zoo/files/12459169/od6class_672_384.zip)|[od6class_672_384.cfg](https://github.com/Eyenix/en675_model_zoo/files/12812971/od6class_672_384.zip)|22MB|63ms|28ms| [Click](#model---672x384-eyenix-model-v2-tiny) |
-|672_384_eyenix_model_v3 (tiny) - release|[od6class_672_384_v3.bin](https://github.com/user-attachments/files/19480573/od6class_672_384_v3_bin.zip)|[od6class_672_384_v3.cfg](https://github.com/user-attachments/files/19480585/od6class_672_384_v3_cfg.zip)|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---release) |
-|672_384_eyenix_model_v3 (tiny) - update|[od6class_672_384_v3.bin](https://github.com/user-attachments/files/19480594/od6class_672_384_v3_bin.zip)|[od6class_672_384_v3.cfg](https://github.com/user-attachments/files/19480604/od6class_672_384_v3_cfg.zip)|30MB|-ms|-ms| [Click](#model---672x384-eyenix-model-v3-tiny---update) |
-|864_512_eyenix_model_v3 (tiny) - update|[od6class_864_512.bin](https://github.com/user-attachments/files/19480608/od6class_864_512_bin.zip)|[od6class_864_512.cfg](https://github.com/user-attachments/files/19480610/od6class_864_512_cfg.zip)|44MB|-ms|-ms| [Click](#model---864x512-eyenix-model-v3-tiny---update) |
+|672_384_eyenix_model_v3 (tiny) - release|[od6class_672_384_v3.bin](https://github.com/user-attachments/files/19480573/od6class_672_384_v3_bin.zip)|[od6class_672_384_v3.cfg](https://github.com/user-attachments/files/19480585/od6class_672_384_v3_cfg.zip)|30MB|80ms|39ms| [Click](#model---672x384-eyenix-model-v3-tiny---release) |
+|672_384_eyenix_model_v3 (tiny) - update|[od6class_672_384_v3.bin](https://github.com/user-attachments/files/19480594/od6class_672_384_v3_bin.zip)|[od6class_672_384_v3.cfg](https://github.com/user-attachments/files/19480604/od6class_672_384_v3_cfg.zip)|30MB|80ms|39ms| [Click](#model---672x384-eyenix-model-v3-tiny---update) |
+|864_512_eyenix_model_v3 (tiny) - update|[od6class_864_512.bin](https://github.com/user-attachments/files/19480608/od6class_864_512_bin.zip)|[od6class_864_512.cfg](https://github.com/user-attachments/files/19480610/od6class_864_512_cfg.zip)|46MB|131ms|60ms| [Click](#model---864x512-eyenix-model-v3-tiny---update) |
 
 
 &#160;
@@ -44,6 +44,53 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 
 **caution** : For the eyenix_face model_v1, the confidence score max is 64 instead of 256. User needs to change the value of the ClassConfTH array in npu_conf.c
 
+
+&#160;
+
+
+## 🏆 Performance of released model
+### ▶ 6 class Model  (**classes** : Person, Car, Motorbike, Bicycle, Truck, Bus  )
+
+### Model - 320x320 eyenix model v1  
+<img src="https://github.com/user-attachments/assets/899af614-a71a-439f-9d84-dee2ce8aa251" width="500"/>
+<img src="https://github.com/user-attachments/assets/ee5a96bb-082b-41bd-8a25-b5ce878b2e43" width="500"/>
+
+### Model - 512x512 eyenix model v1  
+<img src="https://github.com/user-attachments/assets/0b2759fd-9560-4845-9223-f623fd722d0c" width="500"/>
+<img src="https://github.com/user-attachments/assets/d16004b8-d40a-4724-8df4-6128170cdd91" width="500"/>
+
+### Model - 640x640 eyenix model v1  
+<img src="https://github.com/user-attachments/assets/7f493a2a-de84-49cf-8d13-d31b9bd31104" width="500"/>
+<img src="https://github.com/user-attachments/assets/047ca093-57de-40b6-bd33-fd8ba8aba54f" width="500"/>
+
+### Model - 672x384 eyenix model v2 (tiny)  
+<img src="https://github.com/user-attachments/assets/b3d5a2b8-710e-4d79-9068-6e0730691dcf" width="500"/>
+<img src="https://github.com/user-attachments/assets/ed533c29-82d3-434e-8f7b-d65979c0e477" width="500"/>
+
+### Model - 672x384 eyenix model v3 (tiny) - release
+<img src="https://github.com/user-attachments/assets/51fe8ebb-11e0-4a50-a491-3f6cd86f309b" width="500"/>
+<img src="https://github.com/user-attachments/assets/09b1f1d0-1cb1-441c-8529-fb60206aa4e7" width="500"/>
+
+### Model - 672x384 eyenix model v3 (tiny) - update
+<img src="https://github.com/user-attachments/assets/5d05a76d-6e63-444d-9f6e-088de44e764c" width="500"/>
+<img src="https://github.com/user-attachments/assets/77724a8a-7bfe-4e6b-add3-ba3b997b620f" width="500"/>
+
+### Model - 864x512 eyenix model v3 (tiny) - update
+<img src="https://github.com/user-attachments/assets/5f166ff1-5ba3-48f7-a8b0-4d9efa282de7" width="500"/>
+<img src="https://github.com/user-attachments/assets/71ca8f5e-1fb4-4cbe-b1f0-6039a50e8081" width="500"/>
+
+
+&#160;
+
+### ▶ Face Model (**class** : Face)
+
+### Model - 512x288 eyenix model v2 (tiny)  
+
+update ...
+
+### Model - 512x288 eyenix model v3 (tiny)  
+
+update ...
 
 &#160;
 
@@ -84,38 +131,6 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 |:-----:|:---:|:---:|
 |640_640_eyenix_model_v2 (yolov7_tiny_silu)| - | - |
 |640_640_eyenix_model_v3 (yolov7_tiny_silu)| - | - |
-
-&#160;
-
-## 🏆 Performance of released model
-### ▶ 6 class Model  (**classes** : Person, Car, Motorbike, Bicycle, Truck, Bus  )
-
-### Model - 672x384 eyenix model v2 (tiny)  
-
-update ...
-
-### Model - 672x384 eyenix model v3 (tiny) - release
-
-update ...
-
-### Model - 672x384 eyenix model v3 (tiny) - update
-
-update ...
-
-### Model - 864x512 eyenix model v3 (tiny) - update
-
-update ...
-&#160;
-
-### ▶ Face Model (**class** : Face)
-
-### Model - 512x288 eyenix model v2 (tiny)  
-
-update ...
-
-### Model - 512x288 eyenix model v3 (tiny)  
-
-update ...
 
 &#160;
 
