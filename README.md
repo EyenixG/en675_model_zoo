@@ -110,10 +110,10 @@ update ...
 
 |Model|mAP at IOU = 0.50:0.95 (GPU)|mAP at IOU = 0.50:0.95 (NPU)| mAP at IOU = 0.50 (GPU)|mAP at IOU = 0.50 (NPU)|
 |:-----:|:---:|:---:|:---:|:---:|
-|640_640_eyenix_model_v3 (yolov5s_silu)|39.3|35.2|58.6|54.7|
-|640_640_eyenix_model_v3 (yolov5s_relu6)|38.1|34.8|57.6|54.4|
-|640_640_eyenix_model_v3 (yolov7_tiny_silu)|39.1|34.8|57.8|53.9|
-|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|38.2|34.1|56.5|53.1|
+|640_640_eyenix_model_v3 (yolov5s_silu)|39.3|36.0|58.6|55.1|
+|640_640_eyenix_model_v3 (yolov5s_relu6)|38.1|35.2|57.6|54.4|
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|39.1|35.1|57.8|54.0|
+|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|38.2|34.6|56.5|53.3|
 |**640_640_eyenix_model_v3 (Large)**|47.6|**45.4**|66.6|**64.1**|
 
 &#160;
