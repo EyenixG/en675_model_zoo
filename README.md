@@ -50,6 +50,7 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 
 ## 🏆 Performance of released model
 ### ▶ 6 class Model  (**classes** : Person, Car, Motorbike, Bicycle, Truck, Bus  )
+* Boxes covering more than 15% of the total area have been removed
 
 ### Model - 320x320 eyenix model v1  
 <img src="https://github.com/user-attachments/assets/899af614-a71a-439f-9d84-dee2ce8aa251" width="500"/>
