@@ -85,13 +85,20 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 
 ### ▶ Face Model (**class** : Face)
 
+### Model - 320x320 eyenix model v1 
+<img src="https://github.com/user-attachments/assets/5cbe1988-9fdc-4568-a170-1b5fb77d4cf8" width="500"/>
+
+### Model - 448x448 eyenix model v1 
+<img src="https://github.com/user-attachments/assets/4f5fa98a-cdad-433b-ba0c-ff86d88041de" width="500"/>
+
+### Model - 512x512 eyenix model v1 
+<img src="https://github.com/user-attachments/assets/f606c711-0a5a-42a0-a8e3-d483b523b03f" width="500"/>
+
 ### Model - 512x288 eyenix model v2 (tiny)  
+<img src="https://github.com/user-attachments/assets/26975d56-c64c-4015-9953-9de2b686a610" width="500"/>
 
-update ...
-
-### Model - 512x288 eyenix model v3 (tiny)  
-
-update ...
+### Model - 512x288 eyenix model v3 (tiny) - update
+<img src="https://github.com/user-attachments/assets/62e8ab39-39d3-46cc-8b1a-38622614df1e" width="500"/>
 
 &#160;
 
@@ -123,15 +130,13 @@ update ...
 👍 Test Dataset : Widerface (val)
 |Model|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
-|640_640_eyenix_model_v2 (yolov7_tiny_silu)|||MB|ms|ms|
-|640_640_eyenix_model_v3 (yolov7_tiny_silu)|||MB|ms|ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|[yolov7_tiny_silu.bin](https://github.com/user-attachments/files/19697217/yolov7_tiny_silu.zip)|[yolov7_tiny_silu.cfg](https://github.com/user-attachments/files/19697210/yolov7_tiny_silu.zip)|40.9MB|131.2ms|66.2ms|
 
 &#160;
 
-|Class|mAP at IOU = 0.50:0.95 (NPU)|mAP at IOU = 0.50 (NPU)|
+|Class|Widerface easy (GPU)|Widerface easy (NPU)|
 |:-----:|:---:|:---:|
-|640_640_eyenix_model_v2 (yolov7_tiny_silu)| - | - |
-|640_640_eyenix_model_v3 (yolov7_tiny_silu)| - | - |
+|640_640_eyenix_model_v3 (yolov7_tiny_silu)|94.4|93.3|
 
 &#160;
 
