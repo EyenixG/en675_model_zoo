@@ -131,12 +131,14 @@ eyenix_model_v3 is available from EN675_SDK_V1.15.00R
 |Model|Compile Results|Cfg|Total DRAM Size|Inference Speed (Standard)|Inference Speed (Boost)|
 |:-----:|:---:|:---:|:---:|:---:|:---:|
 |640_640_eyenix_model_v3 (yolov7_tiny_silu)|[yolov7_tiny_silu.bin](https://github.com/user-attachments/files/19697217/yolov7_tiny_silu.zip)|[yolov7_tiny_silu.cfg](https://github.com/user-attachments/files/19697210/yolov7_tiny_silu.zip)|40.9MB|131.2ms|66.2ms|
+|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|[yolov7_tiny_relu6.bin](https://github.com/user-attachments/files/19729262/yolov7_tiny_relu6.zip)|[yolov7_tiny_relu6.cfg](https://github.com/user-attachments/files/19729263/yolov7_tiny_relu6.zip)|40.4MB|99.1ms|55.9ms|
 
 &#160;
 
 |Class|Widerface easy (GPU)|Widerface easy (NPU)|
 |:-----:|:---:|:---:|
 |640_640_eyenix_model_v3 (yolov7_tiny_silu)|94.4|93.3|
+|640_640_eyenix_model_v3 (yolov7_tiny_relu6)|93.5|91.2|
 
 &#160;
 
